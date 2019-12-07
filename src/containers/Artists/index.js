@@ -1,3 +1,3 @@
-import ArtistsPage from "./containers";
+import ArtistsPage from "./containers/Loadable";
 
 export default ArtistsPage;

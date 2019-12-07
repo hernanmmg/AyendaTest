@@ -9,8 +9,8 @@ class Genres extends Component {
     this.props.fetchGenres();
   }
 
-  handleClickArtist = () => {
-    console.log("clicked");
+  handleClickArtist = genre => {
+    this.props.history.push(`/genres/${genre}/artists`);
   };
 
   render() {
@@ -20,9 +20,12 @@ class Genres extends Component {
         <Content>
           <Row>
             {genres &&
-              genres.map((artist, index) => (
-                <ItemList key={`Genre-${index}`}>
-                  {artist.split("_").join(" ")}
+              genres.map((genre, index) => (
+                <ItemList
+                  key={`Genre-${index}`}
+                  onClick={() => this.handleClickArtist(genre)}
+                >
+                  {genre.split("_").join(" ")}
                 </ItemList>
               ))}
           </Row>

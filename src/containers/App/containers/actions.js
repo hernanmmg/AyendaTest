@@ -106,3 +106,24 @@ export const fetchRandomSong = genre_name => {
     }
   };
 };
+
+export const fetchArtistsbyGenre = genre_name => {
+  return async dispatch => {
+    dispatch(resetReducer);
+    try {
+      const artists = await clientUrl("/artists");
+
+      if (artists) {
+        const data = artists.filter(artist =>
+          artist.genres.includes(genre_name)
+        );
+        dispatch(setArtists(data));
+      } else {
+        throw new Error("Data notFound");
+      }
+    } catch (error) {
+      console.log(error);
+      dispatch(setErrorManager(error));
+    }
+  };
+};

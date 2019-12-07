@@ -1,3 +1,3 @@
-import GenresPage from "./containers";
+import GenresPage from "./containers/Loadable";
 
 export default GenresPage;

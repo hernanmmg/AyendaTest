@@ -3,7 +3,8 @@ import Card from "../../../../components/Card";
 import { Text2 } from "../../../../components/Card/styles";
 import Container from "../../../../components/Container";
 import Content from "../../../../components/Content";
-import Row from "../../../Artists/components/Artists/styles/Row";
+import Loader from "../../../../components/Loader";
+import Row from "../../../Artists/components/RenderArtists/styles/Row";
 
 class Albums extends Component {
   componentDidMount() {
@@ -23,6 +24,7 @@ class Albums extends Component {
 
   render() {
     const { albums } = this.props;
+    if (!albums) return <Loader />;
     return (
       <Container>
         <Content>

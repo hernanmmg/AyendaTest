@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 import { Container, HomeWrapper } from "./styles";
 
 class Home extends Component {
@@ -24,9 +25,9 @@ class Home extends Component {
         <h1>Navigation</h1>
 
         <Container>
-          <button onClick={genres ? this.handleRandomSong : () => {}}>
+          <Button onClick={genres ? this.handleRandomSong : () => {}}>
             Play a random song
-          </button>
+          </Button>
           <ul>
             <li>
               <Link to="/genres">/genres</Link>

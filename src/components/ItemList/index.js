@@ -10,6 +10,11 @@ const ItemList = styled.div`
   position: relative;
   width: 100%;
   padding: 5px 0;
+  cursor: pointer;
+  &:hover {
+    color: #1e2823;
+    transition: color 0.1s ease-out;
+  }
 `;
 
 export default ItemList;

@@ -11,11 +11,11 @@ import {
 export const initialState = {
   error: null,
   loading: false,
-  artists: null,
-  albums: null,
-  genres: null,
-  songs: null,
-  randomsong: null
+  artists: [],
+  albums: [],
+  genres: [],
+  songs: [],
+  randomsong: {}
 };
 
 const appReducer = (state = initialState, action) => {

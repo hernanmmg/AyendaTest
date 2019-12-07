@@ -1,6 +1,7 @@
 import {
   fetchAlbumsbyArtists,
   fetchArtists,
+  fetchArtistsbyGenre,
   fetchGenres,
   fetchRandomSong,
   fetchSongsbyAlbum
@@ -26,5 +27,8 @@ export const mapDispatchToProps = dispatch => ({
   },
   fetchRandomSong: genre_name => {
     dispatch(fetchRandomSong(genre_name));
+  },
+  fetchArtistsbyGenre: genre_name => {
+    dispatch(fetchArtistsbyGenre(genre_name));
   }
 });

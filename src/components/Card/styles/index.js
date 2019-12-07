@@ -38,6 +38,7 @@ const Block = styled.div`
   height: auto;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 
   .eventListener {
     position: relative;
