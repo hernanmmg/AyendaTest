@@ -7,8 +7,8 @@ class Artists extends Component {
   }
 
   render() {
-    const { artists } = this.props;
-    return <RenderArtists artists={artists} />;
+    const { artists, history } = this.props;
+    return <RenderArtists history={history} artists={artists} />;
   }
 }
 

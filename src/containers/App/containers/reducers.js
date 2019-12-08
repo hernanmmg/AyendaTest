@@ -15,7 +15,7 @@ export const initialState = {
   albums: [],
   genres: [],
   songs: [],
-  randomsong: {}
+  randomsong: null
 };
 
 const appReducer = (state = initialState, action) => {
@@ -36,7 +36,12 @@ const appReducer = (state = initialState, action) => {
       return {
         ...state,
         error: false,
-        loading: true
+        loading: true,
+        artists: [],
+        albums: [],
+        genres: [],
+        songs: [],
+        randomsong: []
       };
     case SET_GENRES:
       return {

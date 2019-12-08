@@ -4,7 +4,8 @@ import {
   fetchArtistsbyGenre,
   fetchGenres,
   fetchRandomSong,
-  fetchSongsbyAlbum
+  fetchSongsbyAlbum,
+  fetchSongToListen
 } from "./actions";
 
 export const mapStateToProps = ({ appReducer }) => {
@@ -30,5 +31,8 @@ export const mapDispatchToProps = dispatch => ({
   },
   fetchArtistsbyGenre: genre_name => {
     dispatch(fetchArtistsbyGenre(genre_name));
+  },
+  fetchSongToListen: (albunm_id, song_id) => {
+    dispatch(fetchSongToListen(albunm_id, song_id));
   }
 });

@@ -45,6 +45,7 @@ export const setRandomSong = song => ({
 
 export const fetchGenres = () => {
   return async dispatch => {
+    dispatch(resetReducer);
     try {
       const data = await clientUrl("/genres");
       dispatch(setGenres(data));
@@ -118,6 +119,57 @@ export const fetchArtistsbyGenre = genre_name => {
           artist.genres.includes(genre_name)
         );
         dispatch(setArtists(data));
+      } else {
+        throw new Error("Data notFound");
+      }
+    } catch (error) {
+      console.log(error);
+      dispatch(setErrorManager(error));
+    }
+  };
+};
+
+const searchSongs = length => {
+  const index = Math.floor(Math.random() * length);
+  return index;
+};
+
+export const fetchSongToListen = (albunm_id, song_id) => {
+  return async dispatch => {
+    dispatch(resetReducer);
+    try {
+      // fetch
+      const songsData = await clientUrl(`/albums/${albunm_id}/songs`);
+      let data = [];
+      if (songsData) {
+        // Verify length of songs
+        if (songsData.length > 3) {
+          // copy array
+          const songs = [...songsData];
+          // find song from params
+          let value = songs.find(song => song.id === parseInt(song_id));
+          let i = 0;
+          // search two songs more
+          while (i < 3) {
+            if (i === 0) data.push(value);
+            else {
+              value = searchSongs(songs.length);
+              // add item to new array
+              data.push(songs[value]);
+            }
+            // delete item from array parent
+            for (const [index, el] of songs.entries()) {
+              if (el.id === value.id) {
+                songs.splice(index, 1);
+                break;
+              }
+            }
+            i++;
+          }
+        } else {
+          data = songsData;
+        }
+        dispatch(setRandomSong(data));
       } else {
         throw new Error("Data notFound");
       }

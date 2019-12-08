@@ -6,9 +6,9 @@ import Content from "../../../../components/Content";
 import Loader from "../../../../components/Loader";
 import Row from "./styles/Row";
 
-const RenderArtists = ({ artists }) => {
+const RenderArtists = ({ artists, history }) => {
   const handleClickArtist = id => {
-    this.props.history.push(`/artists/${id}/albums`);
+    history.push(`/artists/${id}/albums`);
   };
 
   const textComponent = txtName => <Text>{txtName}</Text>;

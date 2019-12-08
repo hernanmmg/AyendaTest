@@ -6,6 +6,7 @@ const Row = styled.div`
   align-items: center;
   width: 100%;
   flex-direction: column;
+  height: 100vh;
 
   audio {
     margin-bottom: 1em;

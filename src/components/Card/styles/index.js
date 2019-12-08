@@ -4,11 +4,12 @@ const Item = styled.div`
   width: 173px;
   height: 173px;
   display: flex;
-  background-image: url(${props => props.image});
-  background-size: cover;
-  border-radius: 50%;
-  opacity: 0.5;
-  cursor: pointer;
+
+  img {
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+  }
 `;
 
 const Text = styled.div`
@@ -43,6 +44,9 @@ const Block = styled.div`
   .eventListener {
     position: relative;
     margin: 15px;
+    &:hover img {
+      opacity: 0.2;
+    }
   }
 
   .eventListener2 {
@@ -54,7 +58,7 @@ const Block = styled.div`
     width: 50%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 875px) {
     width: 33.33%;
   }
 
@@ -62,7 +66,7 @@ const Block = styled.div`
     width: 25%;
   }
 
-  @media (min-width: 1400px) {
+  @media (min-width: 1600px) {
     width: 20%;
   }
 `;

@@ -14,8 +14,9 @@ class Songs extends Component {
     this.props.fetchSongsbyAlbum(params.id);
   };
 
-  handleClickArtist = () => {
-    console.log("clicked");
+  handleClickArtist = songId => {
+    const { id: albumId } = this.props.match.params;
+    this.props.history.push(`/album/${albumId}/song/${songId}/play`);
   };
 
   render() {
@@ -25,8 +26,13 @@ class Songs extends Component {
         <Content>
           <Row>
             {songs &&
-              songs.map((song, index) => (
-                <ItemList key={`Songs-${index}`}>{song.name}</ItemList>
+              songs.map(song => (
+                <ItemList
+                  onClick={() => this.handleClickArtist(song.id)}
+                  key={`Songs-${song.id}`}
+                >
+                  {song.name}
+                </ItemList>
               ))}
           </Row>
         </Content>

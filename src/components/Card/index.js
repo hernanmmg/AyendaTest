@@ -3,14 +3,17 @@ import { Block, Item } from "./styles";
 
 const Card = ({
   image,
-  id: artistId,
+  id,
+  name,
   onClickEvent,
   textComponent,
   classNamed = "eventListener"
 }) => (
   <Block>
-    <div className={classNamed} onClick={() => onClickEvent(artistId)}>
-      <Item image={image} />
+    <div className={classNamed} onClick={() => onClickEvent(id)}>
+      <Item>
+        <img src={image} alt={name} width="173" height="173" />
+      </Item>
       {textComponent}
     </div>
   </Block>

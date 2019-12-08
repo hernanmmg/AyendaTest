@@ -16,15 +16,15 @@ class Albums extends Component {
     this.props.fetchAlbumsbyArtists(params.id);
   };
 
-  handleClickArtist = () => {
-    console.log("clicked");
+  handleClickArtist = albumId => {
+    this.props.history.push(`/albums/${albumId}/songs`);
   };
 
   textComponent = name => <Text2>{name}</Text2>;
 
   render() {
-    const { albums } = this.props;
-    if (!albums) return <Loader />;
+    const { albums, loading } = this.props;
+    if (loading) return <Loader />;
     return (
       <Container>
         <Content>
@@ -34,9 +34,9 @@ class Albums extends Component {
                 <Card
                   onClickEvent={this.handleClickArtist}
                   key={`artist-${album.id}`}
-                  image={album.image}
                   textComponent={this.textComponent(album.name)}
                   classNamed={"eventListener2"}
+                  {...album}
                 />
               ))}
           </Row>
