@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from "../../../../components/Loader";
 import RandomSong from "../../../RandomSong/components/RandomSong";
 
 class PlaySong extends RandomSong {
@@ -9,6 +10,7 @@ class PlaySong extends RandomSong {
 
   renderSong = () => {
     const { randomsong } = this.props;
+    if (!randomsong) return <Loader />;
     return (
       <React.Fragment>
         {randomsong &&
@@ -21,6 +23,9 @@ class PlaySong extends RandomSong {
                 controls
                 loop
               />
+              {song.preview_url === null ? (
+                <h3 style={{ textAlign: "center" }}>Preview not available</h3>
+              ) : null}
             </div>
           ))}
       </React.Fragment>

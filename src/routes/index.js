@@ -5,7 +5,6 @@ import Artists from "../containers/Artists";
 import ArtistsbyGenrePage from "../containers/ArtistsbyGenre";
 import GenresPage from "../containers/Genres";
 import Home from "../containers/HomePage";
-import NotFound from "../containers/NotFound";
 import PlaySong from "../containers/PlaySong";
 import RandomSongPage from "../containers/RandomSong";
 import SongsPage from "../containers/Songs";
@@ -32,7 +31,7 @@ const Routes = () => (
       path="/album/:album_id/song/:song_id/play"
       component={PlaySong}
     />
-    <Route component={NotFound} />
+    <Route component={Home} />
   </Switch>
 );
 

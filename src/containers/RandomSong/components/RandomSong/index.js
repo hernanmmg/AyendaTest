@@ -27,6 +27,9 @@ class RandomSong extends Component {
               controls
               loop
             />
+            {randomsong.preview_url === null ? (
+              <h3 style={{ textAlign: "center" }}>Preview not available</h3>
+            ) : null}
           </React.Fragment>
         )}
       </React.Fragment>

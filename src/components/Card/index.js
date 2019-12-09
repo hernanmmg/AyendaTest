@@ -9,7 +9,7 @@ const Card = ({
   textComponent,
   classNamed = "eventListener"
 }) => (
-  <Block>
+  <Block className="artists">
     <div className={classNamed} onClick={() => onClickEvent(id)}>
       <Item>
         <img src={image} alt={name} width="173" height="173" />

@@ -19,13 +19,16 @@ class Home extends Component {
   };
 
   render() {
-    const { genres } = this.props;
     return (
       <HomeWrapper>
         <h1>Navigation</h1>
 
         <Container>
-          <Button onClick={genres ? this.handleRandomSong : () => {}}>
+          <Button
+            type="button"
+            id="buttonPlaySong"
+            onClick={this.handleRandomSong}
+          >
             Play a random song
           </Button>
           <ul>

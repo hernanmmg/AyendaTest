@@ -1,0 +1,221 @@
+[{
+  "id": 1,
+  "name": "Arctic Monkeys",
+  "image": "https://i.scdn.co/image/ed0552e9746ed2bbf04ae4bcb5525700ca31522d",
+  "genres": ["garage_rock", "indie_rock", "modern_rock", "permanent_wave", "rock", "sheffield_indie"],
+  "popularity": "85.0",
+  "spotify_url": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH",
+  "spotify_id": "7Ln80lUS6He07XvHI8qqHH",
+  "created_at": "2019-08-27T21:20:22.645Z",
+  "updated_at": "2019-08-27T21:20:22.645Z"
+}, {
+  "id": 2,
+  "name": "Metallica",
+  "image": "https://i.scdn.co/image/5a06711d7fc48d5e0e3f9a3274ffed3f0af1bd91",
+  "genres": ["hard_rock", "metal", "old_school_thrash", "rock", "speed_metal", "thrash_metal"],
+  "popularity": "85.0",
+  "spotify_url": "https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB",
+  "spotify_id": "2ye2Wgw4gimLv2eAKyk1NB",
+  "created_at": "2019-08-27T21:23:32.865Z",
+  "updated_at": "2019-08-27T21:23:32.865Z"
+}, {
+  "id": 3,
+  "name": "Nirvana",
+  "image": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b",
+  "genres": ["alternative_rock", "grunge", "permanent_wave", "post-grunge", "rock"],
+  "popularity": "83.0",
+  "spotify_url": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+  "spotify_id": "6olE6TJLqED3rqDCT0FyPh",
+  "created_at": "2019-08-27T21:29:20.313Z",
+  "updated_at": "2019-08-27T21:29:20.313Z"
+}, {
+  "id": 4,
+  "name": "Diomedes Diaz",
+  "image": "https://i.scdn.co/image/c3b77cdff8b152466447e4573c45613b06fbcf1b",
+  "genres": ["vallenato"],
+  "popularity": "61.0",
+  "spotify_url": "https://open.spotify.com/artist/66NweiA3nU84k1S3SZdTSG",
+  "spotify_id": "66NweiA3nU84k1S3SZdTSG",
+  "created_at": "2019-08-27T21:39:12.803Z",
+  "updated_at": "2019-08-27T21:39:12.803Z"
+}, {
+  "id": 5,
+  "name": "AC/DC",
+  "image": "https://i.scdn.co/image/a16c5d95ede008ec905d6ca6d1b5abbf39ad4566",
+  "genres": ["album_rock", "australian_rock", "hard_rock", "rock"],
+  "popularity": "86.0",
+  "spotify_url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
+  "spotify_id": "711MCceyCBcFnzjGY4Q7Un",
+  "created_at": "2019-08-27T21:46:10.403Z",
+  "updated_at": "2019-08-27T21:46:10.403Z"
+}, {
+  "id": 6,
+  "name": "311",
+  "image": "https://i.scdn.co/image/9db73e93d333b7b7bef62c42682379eb8356ea18",
+  "genres": ["alternative_metal", "alternative_rock", "funk_metal", "funk_rock", "nu_metal", "pop_rock", "post-grunge", "reggae_fusion", "rock"],
+  "popularity": "69.0",
+  "spotify_url": "https://open.spotify.com/artist/41Q0HrwWBtuUkJc7C1Rp6K",
+  "spotify_id": "41Q0HrwWBtuUkJc7C1Rp6K",
+  "created_at": "2019-08-27T21:50:25.647Z",
+  "updated_at": "2019-08-27T21:50:25.647Z"
+}, {
+  "id": 7,
+  "name": "Calle 13",
+  "image": "https://i.scdn.co/image/edabfb79fbf3d71ad9d0961a7b199a1470fe5372",
+  "genres": ["latin", "latin_afrobeat", "latin_alternative", "latin_hip_hop", "puerto_rican_rock", "rap_conciencia", "reggaeton", "rock_en_espanol", "tropical"],
+  "popularity": "75.0",
+  "spotify_url": "https://open.spotify.com/artist/0yNSzH5nZmHzeE2xn6Xshb",
+  "spotify_id": "0yNSzH5nZmHzeE2xn6Xshb",
+  "created_at": "2019-08-27T21:55:21.359Z",
+  "updated_at": "2019-08-27T21:55:21.359Z"
+}, {
+  "id": 8,
+  "name": "BTS",
+  "image": "https://i.scdn.co/image/0c9057cb30520f9f883a220051260fc66a2f3ffa",
+  "genres": ["k-pop", "k-pop_boy_group"],
+  "popularity": "93.0",
+  "spotify_url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+  "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+  "created_at": "2019-08-27T22:01:38.335Z",
+  "updated_at": "2019-08-27T22:01:38.335Z"
+}, {
+  "id": 9,
+  "name": "El Último De La Fila",
+  "image": "https://i.scdn.co/image/210600bd8adf2aec43523db58c0b80a2e85547aa",
+  "genres": ["cantautor", "rock_en_espanol", "spanish_new_wave", "spanish_pop"],
+  "popularity": "53.0",
+  "spotify_url": "https://open.spotify.com/artist/2jMYTBTCSNYaCYy54mLc6I",
+  "spotify_id": "2jMYTBTCSNYaCYy54mLc6I",
+  "created_at": "2019-08-27T22:06:37.255Z",
+  "updated_at": "2019-08-27T22:06:37.255Z"
+}, {
+  "id": 10,
+  "name": "Alci Acosta",
+  "image": "https://i.scdn.co/image/4c003982f1a935ac44b0fecf4fb16a995862b7ea",
+  "genres": ["bolero", "classic_colombian_pop", "cumbia"],
+  "popularity": "50.0",
+  "spotify_url": "https://open.spotify.com/artist/3CoaObestry7i9joSvJ2hK",
+  "spotify_id": "3CoaObestry7i9joSvJ2hK",
+  "created_at": "2019-08-27T22:16:35.337Z",
+  "updated_at": "2019-08-27T22:16:35.337Z"
+}, {
+  "id": 11,
+  "name": "Green Day",
+  "image": "https://i.scdn.co/image/b6a3f82183adb83b6e47cb22afc25724b241d038",
+  "genres": ["permanent_wave", "pop_punk", "punk", "rock"],
+  "popularity": "83.0",
+  "spotify_url": "https://open.spotify.com/artist/7oPftvlwr6VrsViSDV7fJY",
+  "spotify_id": "7oPftvlwr6VrsViSDV7fJY",
+  "created_at": "2019-08-27T22:23:46.402Z",
+  "updated_at": "2019-08-27T22:23:46.402Z"
+}, {
+  "id": 12,
+  "name": "Tormenta",
+  "image": "https://i.scdn.co/image/e9dacb4dc29e80e6683b8580951a5e79a9a51d94",
+  "genres": ["pop_romantico"],
+  "popularity": "43.0",
+  "spotify_url": "https://open.spotify.com/artist/5IxyAzEThg31lxtUWCcb2q",
+  "spotify_id": "5IxyAzEThg31lxtUWCcb2q",
+  "created_at": "2019-08-27T22:28:58.017Z",
+  "updated_at": "2019-08-27T22:28:58.017Z"
+}, {
+  "id": 13,
+  "name": "Chuck Berry",
+  "image": "https://i.scdn.co/image/d58323616d4f5d22b51e9dfe0ba53aedabe53cd4",
+  "genres": ["blues-rock", "classic_rock", "folk_rock", "rock", "rock-and-roll", "rockabilly", "soul"],
+  "popularity": "69.0",
+  "spotify_url": "https://open.spotify.com/artist/293zczrfYafIItmnmM3coR",
+  "spotify_id": "293zczrfYafIItmnmM3coR",
+  "created_at": "2019-08-27T22:35:00.998Z",
+  "updated_at": "2019-08-27T22:35:00.998Z"
+}, {
+  "id": 14,
+  "name": "Joe Cuba Sextet",
+  "image": "https://i.scdn.co/image/a687b42cdaaf2f1ff91aa8012382db025a7dc8d8",
+  "genres": ["boogaloo", "cuban_rumba", "latin_jazz", "mambo", "salsa", "salsa_international"],
+  "popularity": "48.0",
+  "spotify_url": "https://open.spotify.com/artist/7glnjTMVq4r8iNugFbuIqj",
+  "spotify_id": "7glnjTMVq4r8iNugFbuIqj",
+  "created_at": "2019-08-27T22:40:09.347Z",
+  "updated_at": "2019-08-27T22:40:09.347Z"
+}, {
+  "id": 15,
+  "name": "Compay Segundo",
+  "image": "https://i.scdn.co/image/7825a81ed5b56b1bce246ac2ec89eb34c50b77f5",
+  "genres": ["cuban_rumba", "latin_jazz", "mambo", "son_cubano"],
+  "popularity": "58.0",
+  "spotify_url": "https://open.spotify.com/artist/2wpr4ILskkRzPBGodmbMs1",
+  "spotify_id": "2wpr4ILskkRzPBGodmbMs1",
+  "created_at": "2019-08-27T22:45:28.833Z",
+  "updated_at": "2019-08-27T22:45:28.833Z"
+}, {
+  "id": 16,
+  "name": "Buena Vista Social Club",
+  "image": "https://i.scdn.co/image/5d20d6f8d14f216a770d1aa461dd5091938f9aa9",
+  "genres": ["latin_jazz", "world"],
+  "popularity": "68.0",
+  "spotify_url": "https://open.spotify.com/artist/11kBu957KTYoAltZHDm8gW",
+  "spotify_id": "11kBu957KTYoAltZHDm8gW",
+  "created_at": "2019-08-27T22:52:55.789Z",
+  "updated_at": "2019-08-27T22:52:55.789Z"
+}, {
+  "id": 17,
+  "name": "Masacre",
+  "image": "https://i.scdn.co/image/5f94eb00b5d104f433a05a5210278955bb3d2b64",
+  "genres": ["metal_colombiano"],
+  "popularity": "20.0",
+  "spotify_url": "https://open.spotify.com/artist/6ybTIsR4n37yT6UspaRR7m",
+  "spotify_id": "6ybTIsR4n37yT6UspaRR7m",
+  "created_at": "2019-08-27T22:54:46.638Z",
+  "updated_at": "2019-08-27T22:54:46.638Z"
+}, {
+  "id": 18,
+  "name": "Pantera",
+  "image": "https://i.scdn.co/image/ab21b012c14655da99190faeada6d5ed95273c98",
+  "genres": ["alternative_metal", "groove_metal", "hard_rock", "metal", "nu_metal", "old_school_thrash", "rock", "wrestling"],
+  "popularity": "72.0",
+  "spotify_url": "https://open.spotify.com/artist/14pVkFUHDL207LzLHtSA18",
+  "spotify_id": "14pVkFUHDL207LzLHtSA18",
+  "created_at": "2019-08-27T22:57:16.343Z",
+  "updated_at": "2019-08-27T22:57:16.343Z"
+}, {
+  "id": 19,
+  "name": "Rubén Blades",
+  "image": "https://i.scdn.co/image/56b3a34dedcaa9a3be3dfdeebc60598b4d13c8d3",
+  "genres": ["boogaloo", "latin_jazz", "mambo", "salsa", "tipico", "tropical"],
+  "popularity": "65.0",
+  "spotify_url": "https://open.spotify.com/artist/5BwMgvRwlq61SmknvsVIQj",
+  "spotify_id": "5BwMgvRwlq61SmknvsVIQj",
+  "created_at": "2019-08-27T23:02:12.873Z",
+  "updated_at": "2019-08-27T23:02:12.873Z"
+}, {
+  "id": 20,
+  "name": "Los Hermanos Zuleta",
+  "image": "https://i.scdn.co/image/b10c42c12aaaf42147e15c922fbb70985271dd49",
+  "genres": ["vallenato"],
+  "popularity": "44.0",
+  "spotify_url": "https://open.spotify.com/artist/3vjtBZfcllf1dc7lfyKKME",
+  "spotify_id": "3vjtBZfcllf1dc7lfyKKME",
+  "created_at": "2019-08-27T23:07:23.383Z",
+  "updated_at": "2019-08-27T23:07:23.383Z"
+}, {
+  "id": 21,
+  "name": "Carlos Vives",
+  "image": "https://i.scdn.co/image/b8f49235f332121795229bc730402003038a0134",
+  "genres": ["champeta", "colombian_pop", "latin", "latin_pop", "tropical", "vallenato"],
+  "popularity": "77.0",
+  "spotify_url": "https://open.spotify.com/artist/4vhNDa5ycK0ST968ek7kRr",
+  "spotify_id": "4vhNDa5ycK0ST968ek7kRr",
+  "created_at": "2019-08-27T23:12:33.063Z",
+  "updated_at": "2019-08-27T23:12:33.063Z"
+}, {
+  "id": 22,
+  "name": "Muse",
+  "image": "https://i.scdn.co/image/12450535621500d6e519275f2c52d49c00a0168f",
+  "genres": ["modern_rock", "permanent_wave", "piano_rock", "post-grunge", "rock"],
+  "popularity": "81.0",
+  "spotify_url": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI",
+  "spotify_id": "12Chz98pHFMPJEknJQMWvI",
+  "created_at": "2019-08-27T23:17:00.894Z",
+  "updated_at": "2019-08-27T23:17:00.894Z"
+}]
